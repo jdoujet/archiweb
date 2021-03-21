@@ -34,7 +34,7 @@ const router = new VueRouter({
   mode: 'history',
   routes: [
     {path: '/', component: accueil},
-    {path: '/create-station', component: createStation}
+    {path: '/stations', component: createStation}
   ]
 
 });
